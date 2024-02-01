@@ -59,7 +59,7 @@
       "eslint --fix"
     ]
   },
-  "ignorePatterns": {
+  "ignorePatterns": [
     "!.storybook"
-  }
+  ]
 }
