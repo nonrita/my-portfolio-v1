@@ -1,3 +1,5 @@
+import { version } from "prettier";
+
 module.exports = {
   env: {
     browser: true,
@@ -7,6 +9,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'plugin:storybook/recommended',
   ],
   overrides: [
     {
@@ -27,5 +30,8 @@ module.exports = {
   plugins: ['@typescript-eslint', 'react'],
   rules: {
     'react/react-in-jsx-scope': 'off',
+  },
+  settings: {
+    react: {version: "ditect"},
   },
 };
