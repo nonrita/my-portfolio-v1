@@ -1,5 +1,3 @@
-import { version } from "prettier";
-
 module.exports = {
   env: {
     browser: true,
