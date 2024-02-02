@@ -22,38 +22,38 @@ const Home = () => {
 
       <main className=" h-screen w-full mb-96 text-gray-800 flex flex-col items-center">
         <a id="introduction" />
-        <section className=" w-9/12 p-8 my-8 bg-slate-100 rounded-2xl drop-shadow-2xl flex flex-col lg:flex-row items-end">
+        <section className=" w-10/12 lg:w-9/12 p-1 lg:p-8 my-8 bg-slate-100 rounded-2xl drop-shadow-2xl flex flex-col lg:flex-row items-end">
           <img
             src={mySelfImage}
             alt=""
             className=" w-full lg:w-1/2 h-full rounded-t-2xl lg:rounded-se-none lg:rounded-l-2xl border-4 border-b-0 lg:border-b-4 lg:border-r-0 border-slate-200 object-cover"
           />
-          <div className=" w-full lg:w-1/2 h-full p-8 rounded-b-2xl lg:rounded-es-none lg:rounded-r-2xl border-4 border-t-0 lg:border-t-4 lg:border-l-0 border-slate-200 flex flex-col justify-evenly">
-            <h2 className=" text-4xl pb-2 mb-8 border-b-2 border-slate-200">
+          <div className=" w-full lg:w-1/2 h-full p-4 lg:p-8 rounded-b-2xl lg:rounded-es-none lg:rounded-r-2xl border-4 border-t-0 lg:border-t-4 lg:border-l-0 border-slate-200 flex flex-col justify-evenly">
+            <h2 className=" lg:text-4xl pb-2 mb-4 lg:mb-8 border-b-2 border-slate-200">
               久乗 建汰 (kunori kenta)
             </h2>
             <ul className=" h-full flex flex-col gap-8">
               <li>
                 <p>所属-</p>
-                <p className=" text-2xl ml-4">ECCコンピュータ専門学校</p>
+                <p className=" lg:text-2xl ml-4">ECCコンピュータ専門学校</p>
               </li>
               <li>
                 <p>卒業年次-</p>
-                <p className=" text-2xl ml-4">2026/3</p>
+                <p className=" lg:text-2xl ml-4">2026/3</p>
               </li>
               <li>
                 <p>希望職種-</p>
-                <p className=" text-2xl ml-4">Webエンジニア</p>
+                <p className=" lg:text-2xl ml-4">Webエンジニア</p>
               </li>
               <li>
                 <p>メールアドレス-</p>
-                <p className=" text-2xl ml-4">pontaiponji@gmail.com</p>
+                <p className=" lg:text-2xl ml-4">pontaiponji@gmail.com</p>
               </li>
             </ul>
           </div>
         </section>
 
-        <section id="skill" className=" w-9/12 py-8">
+        <section id="skill" className=" w-10/12 lg:w-9/12 py-8">
           <h3 className=" pl-4 pb-2 text-4xl border-b-4 border-slate-200">
             スキル
           </h3>
