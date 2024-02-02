@@ -4,8 +4,10 @@ const Home = () => {
   return (
     <>
       <header className=" w-full px-8 py-6 text-gray-800 bg-slate-100 border-b-8 border-slate-200 flex flex-row items-center justify-between">
-        <h1 className=" text-4xl leading-7 font-[500]">My Portfolio</h1>
-        <ul className="flex flex-row gap-8 [&>li]:inline-block [&>li]:mx-4 [&>li]:leading-8 [&>li]:capitalize [&>li]:text-xl [&>li]:font-[530] [&>li>a]:inline-block [&>li>a]:px-2 [&>li>a]:border-b-2 [&>li>a]:border-transparent [&>li>a:hover]:border-slate-800 [&>li>a]:transition-colors [&>li>a]:ease-in">
+        <h1 className="   text-lg lg:text-4xl leading-7 font-[500]">
+          My Portfolio
+        </h1>
+        <ul className=" hidden lg:inline-block flex flex-row gap-8 [&>li]:inline-block [&>li]:mx-4 [&>li]:leading-8 [&>li]:capitalize [&>li]:text-xl [&>li]:font-[530] [&>li>a]:inline-block [&>li>a]:px-2 [&>li>a]:border-b-2 [&>li>a]:border-transparent [&>li>a:hover]:border-slate-800 [&>li>a]:transition-colors [&>li>a]:ease-in">
           <li>
             <a href="#introduction">自己紹介</a>
           </li>
@@ -24,7 +26,7 @@ const Home = () => {
           <img
             src={mySelfImage}
             alt=""
-            className=" w-full lg:w-1/2 h-full rounded-t-2xl lg:rounded-se-none lg:rounded-l-2xl border-4 border-b-0 lg:border-b-4 lg:border-r-0 border-slate-200 bg-cover"
+            className=" w-full lg:w-1/2 h-full rounded-t-2xl lg:rounded-se-none lg:rounded-l-2xl border-4 border-b-0 lg:border-b-4 lg:border-r-0 border-slate-200 object-cover"
           />
           <div className=" w-full lg:w-1/2 h-full p-8 rounded-b-2xl lg:rounded-es-none lg:rounded-r-2xl border-4 border-t-0 lg:border-t-4 lg:border-l-0 border-slate-200 flex flex-col justify-evenly">
             <h2 className=" text-4xl pb-2 mb-8 border-b-2 border-slate-200">
@@ -55,8 +57,8 @@ const Home = () => {
           <h3 className=" pl-4 pb-2 text-4xl border-b-4 border-slate-200">
             スキル
           </h3>
-          <div className=" mt-4 grid grid-cols-2 gap-16">
-            <div className=" p-8 bg-slate-100 rounded-2xl drop-shadow-2xl flex flex-col items-center col-span-2">
+          <div className=" mt-4 grid lg:grid-cols-2 gap-16">
+            <div className=" p-8 bg-slate-100 rounded-2xl drop-shadow-2xl flex flex-col items-center lg:col-span-2">
               <h4 className=" text-2xl font-bold">コーディング</h4>
               <p className=" mb-4 text-center">
                 最近はcssをtailwindで書くことが多いです。
